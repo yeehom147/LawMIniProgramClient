@@ -1,0 +1,163 @@
+<!--question.wxml-->
+<view class="container">
+  <view class="question-wrp">
+    <view class="question-item">
+      <view class="que-tag">
+        <text class="tag">出借车辆</text>
+        <text class="tag">事故</text>
+        <text class="tag">赔偿</text>
+        <text class="tag">责任</text>
+      </view>
+      <view class="que-title">
+        出借车辆出事故 车主需要承担事故的赔偿责任吗？
+      </view>
+      <view class="que-content">
+        杨某好心将车借给小于，回家途中发生交通事故。车辆的各种保险也都交着。这种情况下，杨某需要承担本事故的赔偿责任吗？
+      </view>
+      <view class="que-follow">
+        <view class="left">
+          <view class="watch">
+            <image src="../../images/eye.png"></image>
+            <text>3316</text>
+          </view>
+          <view class="comment">
+            <image src="../../images/comment2.png"></image>
+            <text>27</text>
+          </view>
+        </view>
+        <view class="right">
+          关注
+        </view>
+      </view>
+    </view>
+    <view class="que-operate flex-wrp">
+      <view class="invite flex-item">
+        <image src="../../images/invite.png"></image>
+        <text>邀请回答</text>
+      </view>
+      <view class="write flex-item">
+        <image src="../../images/write.png"></image>
+        <text>写回答</text>
+      </view>
+    </view>
+  </view>
+  <view class="answer-feed">
+    <view bindtap="bindItemTap" class="feed-item">
+      <view class="feed-source">
+        <a class="" bindTap="">
+          <view class="avatar">
+            <image src="../../images/icon1.jpeg"></image>
+          </view>
+          <text>张大喵</text>
+        </a>
+      </view>
+      <view class="feed-content">
+        <view class="answer-body">
+          <view>
+            <text class="answer-txt">根据我国相关法律法规及司法解释的规定，机动车发生交通事故造成人员伤亡、财产损失时，首先由保险公司在保险责任限额范围内予以赔偿，不足部分由过错方根据过错程度承担相应的赔偿责任。因租赁、借用机动车发生交通事故，导致使用人… </text>
+          </view>
+          <view class="answer-actions">
+            <view class="like dot">
+              <a>3.9K 赞同 </a>
+            </view>
+            <view class="comments dot">
+              <a>254 评论 </a>
+            </view>
+            <view class="time">
+              <a>2 个月前</a>
+            </view>
+
+          </view>
+        </view>
+      </view>
+    </view>
+    <view bindtap="bindItemTap" class="feed-item">
+      <view class="feed-source">
+        <a class="" bindTap="">
+          <view class="avatar">
+            <image src="../../images/icon1.jpeg"></image>
+          </view>
+          <text>张大喵</text>
+        </a>
+      </view>
+      <view class="feed-content">
+        <view class="answer-body">
+          <view>
+            <text class="answer-txt">根据我国相关法律法规及司法解释的规定，机动车发生交通事故造成人员伤亡、财产损失时，首先由保险公司在保险责任限额范围内予以赔偿，不足部分由过错方根据过错程度承担相应的赔偿责任。因租赁、借用机动车发生交通事故，导致使用人… </text>
+          </view>
+          <view class="answer-actions">
+            <view class="like dot">
+              <a>3.9K 赞同 </a>
+            </view>
+            <view class="comments dot">
+              <a>254 评论 </a>
+            </view>
+            <view class="time">
+              <a>2 个月前</a>
+            </view>
+
+          </view>
+        </view>
+      </view>
+    </view>
+    <view bindtap="bindItemTap" class="feed-item">
+      <view class="feed-source">
+        <a class="" bindTap="">
+          <view class="avatar">
+            <image src="../../images/icon1.jpeg"></image>
+          </view>
+          <text>张大喵</text>
+        </a>
+      </view>
+      <view class="feed-content">
+        <view class="answer-body">
+          <view>
+            <text class="answer-txt">根据我国相关法律法规及司法解释的规定，机动车发生交通事故造成人员伤亡、财产损失时，首先由保险公司在保险责任限额范围内予以赔偿，不足部分由过错方根据过错程度承担相应的赔偿责任。因租赁、借用机动车发生交通事故，导致使用人…</text>
+          </view>
+          <view class="answer-actions">
+            <view class="like dot">
+              <a>3.9K 赞同 </a>
+            </view>
+            <view class="comments dot">
+              <a>254 评论 </a>
+            </view>
+            <view class="time">
+              <a>2 个月前</a>
+            </view>
+
+          </view>
+        </view>
+      </view>
+    </view>
+    <view bindtap="bindItemTap" class="feed-item">
+      <view class="feed-source">
+        <a class="" bindTap="">
+          <view class="avatar">
+            <image src="../../images/icon1.jpeg"></image>
+          </view>
+          <text>张大喵</text>
+        </a>
+      </view>
+      <view class="feed-content">
+        <view class="answer-body">
+          <view>
+            <text class="answer-txt">根据我国相关法律法规及司法解释的规定，机动车发生交通事故造成人员伤亡、财产损失时，首先由保险公司在保险责任限额范围内予以赔偿，不足部分由过错方根据过错程度承担相应的赔偿责任。因租赁、借用机动车发生交通事故，导致使用人… </text>
+          </view>
+          <view class="answer-actions">
+            <view class="like dot">
+              <a>3.9K 赞同 </a>
+            </view>
+            <view class="comments dot">
+              <a>254 评论 </a>
+            </view>
+            <view class="time">
+              <a>2 个月前</a>
+            </view>
+
+          </view>
+        </view>
+      </view>
+    </view>
+
+  </view>
+</view>

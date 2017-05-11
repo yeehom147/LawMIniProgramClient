@@ -4,7 +4,8 @@
     "pages/answer/answer",
     "pages/discovery/discovery",
     "pages/chat/chat",
-    "pages/more/more"
+    "pages/more/more",
+    "pages/question/question"
   ],
   "window": {
     "backgroundTextStyle": "light",

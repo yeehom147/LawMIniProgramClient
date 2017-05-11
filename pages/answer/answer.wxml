@@ -1,6 +1,73 @@
 <!--answer.wxml-->
 <view class="container">
-  <view class="question">
-    <text>猫咪是怎样向你撒娇的？</text>
+  <view class="question" bindtap="bindQueTap">
+    <text class="question-title">出借车辆出事故 车主需要承担事故的赔偿责任吗？</text>
+  </view>
+  <view class="answerer-wrp">
+    <view class="bg-half"></view>
+    <view class="answerer flex-wrp">
+      <view class="avatar flex-item">
+        <image src="../../images/icon8.jpg"></image>
+      </view>
+      <view class="answerer-info flex-item">
+        <text class="answerer-name">Alex</text>
+        <text class="answerer-des">Alex 就是 Alex</text>
+      </view>
+      <view class="follow flex-item">
+        <text>十 关注</text>
+      </view>
+    </view>
+  </view>
+  <view class="answer-content">
+    <text>根据我国相关法律法规及司法解释的规定，机动车发生交通事故造成人员伤亡、财产损失时，首先由保险公司在保险责任限额范围内予以赔偿，不足部分由过错方根据过错程度承担相应的赔偿责任。因租赁、借用机动车发生交通事故，导致使用人和所有人不一致时，属于机动车一方责任的，由保险公司在保险责任范围内先予赔偿，不足部分由机动车使用人承担；如果机动车所有人在出借机动车过程中存在过错，那么其需要根据自己的过错程度承担相应的赔偿责任。 
+         </text>
+    <image src="../../images/1444983318907-_DSC1826.jpg"></image>
+    <text>
+    同时，《最高人民法院关于审理道路交通事故损害赔偿案件适用法律若干问题的解释》第一条就出借人在出借机动车过程中的过错情形进行了规定，过错情形主要有： 
+
+    （一）知道或者应当知道机动车存在缺陷，且该缺陷是交通事故发生原因之一的； 
+
+    （二）知道或者应当知道驾驶人无驾驶资格或者未取得相应驾驶资格的； 
+
+    （三）知道或者应当知道驾驶人因饮酒、服用国家管制的精神药品或者麻醉药品，或者患有妨碍安全驾驶机动车的疾病等依法不能驾驶机动车的； 
+
+    （四）其它应当认定机动车所有人或者管理人有过错的。 
+
+    本案中，杨某在出借机动车的过程中不存在司法解释中规定的过错情形，因此，其不应当承担本次事故的赔偿责任。 
+         </text>
+    <image src="../../images/1444983318907-_DSC1826.jpg"></image>
+  </view>
+
+  <view class="answer-footer flex-wrp">
+    <view class="good flex-item">
+      <view class="good-bad">
+        <image src="../../images/good-bad.png"></image>
+      </view>
+      <view class="good-num">2.1k</view>
+    </view>
+    <view class="operation-wrp flex-item">
+      <view class="operation flex-wrp flex-tab">
+        <view class="operation-btn flex-item">
+          <image src="../../images/flag.png"></image>
+          <text>没有帮助</text>
+        </view>
+        <view class="operation-btn flex-item">
+          <image src="../../images/heart2.png"></image>
+          <text>感谢</text>
+        </view>
+        <view class="operation-btn flex-item">
+          <image src="../../images/star2.png"></image>
+          <text>收藏</text>
+        </view>
+        <view class="operation-btn flex-item">
+          <image src="../../images/comment.png"></image>
+          <text>302</text>
+        </view>
+
+      </view>
+    </view>
+
+
+
   </view>
 </view>
