@@ -11,6 +11,15 @@
 </view>
 -->
 <view class="container">
+ <view class="search flex-wrp">
+       <view class="search-left flex-item">
+           <image src="../../images/search.png"></image>
+           <input placeholder="搜索知识, 问题或律师" placeholder-class="search-placeholder"/>
+       </view>
+       <view class="search-right flex-item">
+           <image src="../../images/lighting.png"></image>
+       </view>
+   </view>
   <view class="feed-item">
     <view class="feed-source">
       <a class="" bindTap="">
