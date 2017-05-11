@@ -1,0 +1,6 @@
+/* answer.wxss */
+
+.question {
+  width: 750rpx;
+  padding: 20rpx;
+}
